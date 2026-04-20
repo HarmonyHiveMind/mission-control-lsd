@@ -21,23 +21,16 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import {
   LayoutDashboard,
-  Hammer,
-  BarChart3,
   Settings,
   LogOut,
   Bot,
-  Activity,
-  DollarSign,
+  Coins,
 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navItems = [
   { title: "Home", icon: LayoutDashboard, href: "/" },
-  { title: "ClawForge Dashboard", icon: Hammer, href: "/clawforge" },
-  { title: "Business Plan", icon: Activity, href: "/clawforge/business-plan" },
-  { title: "Skill Development", icon: BarChart3, href: "/clawforge/skills" },
-  { title: "Profit & Loss", icon: DollarSign, href: "/clawforge/pnl" },
   { title: "Agent Fleet", icon: Bot, href: "/agents" },
 ];
 
@@ -59,12 +52,12 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
         <Sidebar className="border-slate-700 shrink-0">
           <SidebarHeader className="border-b border-slate-700 p-4">
             <Link href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
-                <Hammer className="w-6 h-6 text-slate-900" />
+              <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center">
+                <Coins className="w-6 h-6 text-slate-900" />
               </div>
               <div>
                 <h1 className="font-bold text-white">Mission Control</h1>
-                <p className="text-xs text-slate-400">ClawForge Studio</p>
+                <p className="text-xs text-slate-400">Legacy Syndicate</p>
               </div>
             </Link>
           </SidebarHeader>
