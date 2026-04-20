@@ -1,14 +1,46 @@
 {
   "date": "2026-03-26",
-  "totalRuns": 4,
-  "successful": 4,
+  "totalRuns": 6,
+  "successful": 6,
   "failed": 0,
   "partial": 0,
   "totalTokens": {
-    "input": 13200,
-    "output": 17300
+    "input": 13389,
+    "output": 23400
   },
   "reports": [
+    {
+      "id": "sound-money-research-1713398400",
+      "agentId": "sound-money-research",
+      "agentName": "Sound Money Research", 
+      "task": "Analyze successful X accounts in the sound money, gold, and crypto education space for @DigitalGold strategy",
+      "outcome": "success",
+      "startedAt": "2026-04-17T15:22:00-07:00",
+      "completedAt": "2026-04-17T15:24:00-07:00",
+      "duration": "1m20s",
+      "durationMs": 80000,
+      "tokens": {
+        "input": 104,
+        "output": 3000
+      },
+      "model": "anthropic/claude-sonnet-4-20250514"
+    },
+    {
+      "id": "fintech-defi-research-1713398520",
+      "agentId": "fintech-defi-research", 
+      "agentName": "Fintech DeFi Research",
+      "task": "Research successful X accounts in fintech education, DeFi, and tokenization space for @LSD_Gold strategy",
+      "outcome": "success",
+      "startedAt": "2026-04-17T15:22:00-07:00",
+      "completedAt": "2026-04-17T15:24:20-07:00",
+      "duration": "1m22s",
+      "durationMs": 82000,
+      "tokens": {
+        "input": 85,
+        "output": 3100
+      },
+      "model": "anthropic/claude-sonnet-4-20250514"
+    },
     {
       "id": "mission-control-auditor-1711503280",
       "agentId": "mission-control-auditor",
