@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-26",
+  "totalRuns": 4,
+  "successful": 4,
+  "failed": 0,
+  "partial": 0,
+  "totalTokens": {
+    "input": 13200,
+    "output": 17300
+  },
+  "reports": [
+    {
+      "id": "mission-control-auditor-1711503280",
+      "agentId": "mission-control-auditor",
+      "agentName": "Mission Control Auditor",
+      "task": "Comprehensive audit of Mission Control dashboard",
+      "outcome": "success",
+      "startedAt": "2026-03-26T19:43:00-07:00",
+      "completedAt": "2026-03-26T19:48:12-07:00",
+      "duration": "5m 12s",
+      "durationMs": 312000,
+      "tokens": {
+        "input": 3400,
+        "output": 4800
+      },
+      "model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "pricing-research-1711490580",
+      "agentId": "pricing-research",
+      "agentName": "Pricing Research",
+      "task": "Research pricing strategies for tokenized gold products",
+      "outcome": "success",
+      "startedAt": "2026-03-26T16:20:00-07:00",
+      "completedAt": "2026-03-26T16:22:41-07:00",
+      "duration": "2m 41s",
+      "durationMs": 161000,
+      "tokens": {
+        "input": 3100,
+        "output": 4200
+      },
+      "model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "demand-research-1711490280",
+      "agentId": "demand-research",
+      "agentName": "Demand Research",
+      "task": "Research demand signals for tokenized gold products",
+      "outcome": "success",
+      "startedAt": "2026-03-26T16:15:30-07:00",
+      "completedAt": "2026-03-26T16:18:25-07:00",
+      "duration": "2m 55s",
+      "durationMs": 175000,
+      "tokens": {
+        "input": 3500,
+        "output": 4200
+      },
+      "model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "competition-research-1711490100",
+      "agentId": "competition-research",
+      "agentName": "Competition Research",
+      "task": "Analyze competitive landscape for tokenized gold products",
+      "outcome": "success",
+      "startedAt": "2026-03-26T16:12:00-07:00",
+      "completedAt": "2026-03-26T16:15:00-07:00",
+      "duration": "3m 0s",
+      "durationMs": 180000,
+      "tokens": {
+        "input": 3200,
+        "output": 4100
+      },
+      "model": "claude-sonnet-4-20250514"
+    }
+  ]
+}
